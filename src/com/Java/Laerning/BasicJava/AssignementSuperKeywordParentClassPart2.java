@@ -2,6 +2,15 @@ package com.Java.Laerning.BasicJava;
 
 public class AssignementSuperKeywordParentClassPart2 {
 	
+	//variable 
+	int  parentvariable = 56;
+	
+	//method
+	public void parentmethod() {
+		System.out.println(parentvariable);
+		System.out.println("Calling parent method");
+	}
+	
 	AssignementSuperKeywordParentClassPart2(){	
 		this(4,5,4);
 		System.out.println("Parent Default Constructor");
@@ -22,8 +31,4 @@ public class AssignementSuperKeywordParentClassPart2 {
 	}
 	
 	
-
-	
-	
-
 }

@@ -2,6 +2,13 @@ package com.Java.Laerning.BasicJava;
 
 public class AssignementSuperKeywordChileclassPart1 extends AssignementSuperKeywordParentClassPart2 {
 	
+	public void child() {
+		super.parentvariable = 78;
+		super.parentmethod();
+		System.out.println("child method");
+		
+	}
+	
 	AssignementSuperKeywordChileclassPart1(){
 		this(2,3);
 		System.out.println("Child Default Constructor");
@@ -25,7 +32,7 @@ public class AssignementSuperKeywordChileclassPart1 extends AssignementSuperKeyw
 public static void main(String[] args) {
 		
 	AssignementSuperKeywordChileclassPart1 ASKP1 = new AssignementSuperKeywordChileclassPart1(3);
-		
+	ASKP1.child();	
 	}
 
 }
